@@ -431,5 +431,5 @@ void setup()
 
 void loop()
 {
-  check_status(); // H means connected //F means not connected
+  check_status(); // OK means connected //Fail means not connected
 }
