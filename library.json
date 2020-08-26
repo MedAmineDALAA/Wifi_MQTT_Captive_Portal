@@ -1,0 +1,20 @@
+{
+  "name": "ESP_WifiManager",
+  "version": "1.0.10",
+  "keywords": "wifi, WiFiManager, esp8266, esp32",
+  "description": "ESP32, ESP8266 WiFi Connection manager with enhanced GUI and fallback web ConfigPortal",
+  "authors":
+  {
+    "name":  "Khoi Hoang",
+    "url":   "https://github.com/khoih-prog",
+    "maintainer": true
+  },
+  "repository":
+  {
+    "type": "git",
+    "url": "https://github.com/khoih-prog/ESP_WiFiManager"
+  },
+  "frameworks": "*",
+  "platforms": "espressif",
+  "examples": "examples/*/*/*.ino"
+}
