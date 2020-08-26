@@ -286,9 +286,9 @@ void heartBeatPrint(void)
   static int num = 1;
 
   if (WiFi.status() == WL_CONNECTED)
-    Serial.print("H");        // H means connected to WiFi
+    Serial.print("OK");        // H means connected to WiFi
   else
-    Serial.print("F");        // F means not connected to WiFi
+    Serial.print("Fail");        // F means not connected to WiFi
 
   if (num == 80)
   {
